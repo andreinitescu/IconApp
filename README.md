@@ -42,6 +42,6 @@ Adding to your project
 
        [/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs](/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs)
 
-       [/IconApp/IconApp.iOS/Renderers/IconViewRenderer.cs](/IconApp/IconApp.iOS/Renderers/IconViewRenderer.cs)
+       [/IconApp/IconApp.iOS/Renderer/IconViewRenderer.cs](/IconApp/IconApp.iOS/Renderer/IconViewRenderer.cs)
 
 Note you might need to update some namespaces.
