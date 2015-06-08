@@ -15,14 +15,14 @@ An example of a Page using the IconView control
                  x:Class="IconApp.MyPage"
                  xmlns:controls="clr-namespace:IconApp;assembly=IconApp">
       <controls:IconView Source="monkey"
-                         Foreground="#FF00000"
+                         Foreground="Red"
                          WidthRequest="100"
                          HeightRequest="100"
                          HorizontalOptions="Center"
                          VerticalOptions="Center" />
     </ContentPage>
 
-It draws the "monkey" image with red color:
+It draws the "monkey" image with red color in the center of the screen:
 
 ![Android screenshot](s.jpg)
 
