@@ -33,7 +33,7 @@ It draws the "monkey" image with red color in the center of the screen:
 ![Android screenshot](s.jpg)
 
 
-Add the control to your project
+Adding to your project
 -----------------------
 
 1. Add [/IconApp/IconApp/IconView.cs](/IconApp/IconApp/IconView.cs) to your Xamarin Forms PCL project.
@@ -42,6 +42,6 @@ Add the control to your project
 
        [/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs](/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs)
 
-       [/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs](/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs)
+       [/IconApp/IconApp.iOS/Renderers/IconViewRenderer.cs](/IconApp/IconApp.iOS/Renderers/IconViewRenderer.cs)
 
 Note you might need to update some namespaces.
