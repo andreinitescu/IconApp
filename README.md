@@ -2,7 +2,10 @@ IconView for Xamarin Forms
 ===================
 
 A control for Xamarin Forms to draw a local image with a color.
+
 See [Xamarin Form documentation for Local Images](http://developer.xamarin.com/guides/cross-platform/xamarin-forms/working-with/images/#Local_Images) 
+
+At this moment the implementation is for Android and iOS. Contributions for Windows support are welcome!
 
 Usage
 -------
