@@ -40,7 +40,7 @@ Adding to your project
 
 2. The control uses native renderes. You need to add the renderers to your Android and iOS project respectively:
 
-       IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs
-       IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs
+       [/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs](/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs)
+       [/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs](/IconApp/IconApp.Droid/Renderers/IconViewRenderer.cs)
 
 Note you might need to update some namespaces.
