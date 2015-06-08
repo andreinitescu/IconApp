@@ -24,6 +24,6 @@ An example of a Page using the IconView control
 
 It draws the "monkey" image with red color:
 
-![Android screenshot](s.png)
+![Android screenshot](s.jpg)
 
 
