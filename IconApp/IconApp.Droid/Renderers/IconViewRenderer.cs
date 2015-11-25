@@ -60,6 +60,7 @@ namespace IconApp.Droid.Renderers
             {
                 var d = Resources.GetDrawable(Element.Source).Mutate();
                 d.SetColorFilter(new LightingColorFilter(Element.Foreground.ToAndroid(), Element.Foreground.ToAndroid()));
+                d.Alpha = Element.Foreground.ToAndroid().A;
                 Control.SetImageDrawable(d);
                 ((IVisualElementController)Element).NativeSizeChanged();
             }
