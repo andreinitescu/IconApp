@@ -8,7 +8,7 @@ namespace IconApp
 	{
 		#region ForegroundProperty
 
-		public static readonly BindableProperty ForegroundProperty = BindableProperty.Create<IconView, Color> (p => p.Foreground, default(Color));
+		public static readonly BindableProperty ForegroundProperty = BindableProperty.Create(nameof(Foreground), typeof(Color), typeof(IconView), default(Color));
 
 		public Color Foreground { 
 			get { 
@@ -23,7 +23,7 @@ namespace IconApp
 
 		#region SourceProperty
 
-		public static readonly BindableProperty SourceProperty = BindableProperty.Create<IconView, string> (p => p.Source, default(string));
+		public static readonly BindableProperty SourceProperty = BindableProperty.Create(nameof(Source), typeof(string), typeof(IconView), default(string));
 
 		public string Source { 
 			get { 
