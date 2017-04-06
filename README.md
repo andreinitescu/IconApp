@@ -45,9 +45,9 @@ Adding IconView to your project
 Note you might need to update some namespaces.
 
 
-And the Mighty License is.. (♫ drum roll! ♫  )
+License
 --------------------------------
 
-GNU GENERAL PUBLIC LICENSE
+See LICENSE file
 
 
