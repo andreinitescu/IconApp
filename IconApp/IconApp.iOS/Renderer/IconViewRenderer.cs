@@ -70,7 +70,7 @@ namespace IconApp.iOS.Renderers
 
         private void SetImage(IconView previous = null)
         {
-            if (previous == null)
+            if (previous == null && !string.IsNullOrWhiteSpace(Element.Source))
             {
                 var uiImage = new UIImage(Element.Source);
                 uiImage = uiImage.ImageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate);

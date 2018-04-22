@@ -56,7 +56,7 @@ namespace IconApp.Droid.Renderers
 
         private void UpdateBitmap(IconView previous = null)
         {
-            if (!_isDisposed)
+            if (!_isDisposed && !string.IsNullOrWhiteSpace(Element.Source))
             {
                 var d = Resources.GetDrawable(Element.Source).Mutate();
                 d.SetColorFilter(new LightingColorFilter(Element.Foreground.ToAndroid(), Element.Foreground.ToAndroid()));
