@@ -58,7 +58,7 @@ namespace IconApp.Droid.Renderers
         {
             if (!_isDisposed && !string.IsNullOrWhiteSpace(Element.Source))
             {
-                var d = Resources.GetDrawable(Element.Source).Mutate();
+                var d = Context.GetDrawable(Element.Source).Mutate();
                 d.SetColorFilter(new LightingColorFilter(Element.Foreground.ToAndroid(), Element.Foreground.ToAndroid()));
                 d.Alpha = Element.Foreground.ToAndroid().A;
                 Control.SetImageDrawable(d);
